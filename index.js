@@ -8,8 +8,6 @@ fetch("https://anapioficeandfire.com/api/books")
   })
 
 }
-
-
 function renderBooks(json) {
   const main = document.querySelector('main')
   json.forEach(book => {
