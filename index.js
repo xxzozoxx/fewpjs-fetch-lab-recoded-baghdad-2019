@@ -8,8 +8,6 @@ fetch('https://anapioficeandfire.com/api/books')
    renderBooks(json);
   })
 
-return fetch();
-
 }
 
 
